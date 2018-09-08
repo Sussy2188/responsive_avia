@@ -33,33 +33,35 @@
 </section>
 
 <!--second-section-->
-<section class="container second-section">
-  <div class="row">
-    <div class= "col-xs-12 col-sm-5 second-section__left">
-        <img src="http://avia.com.gt/wp-content/themes/avia/images/index/second-1.png" alt="">  
-    </div>
-    <div class="col-xs-12 col-sm-4 second-section__middle">
-      <div class="middle-text__wrapper">
-        <div class="middle-text__content">
-          <h2 class="second-section__title">AVIA ES VIDA</h2>
-          <p class="second-section__subtitle" style="font-size:11px;">vida, sinergia, funcionalidad e imaginación</p>
-          <p class="second-section__content" style="font-size:14px;">En el coraz&oacute;n de la zona viva, AVIA </p>
-          <p class="second-section__content" style="font-size:14px;">es un estilo de vida, siempre </p>
-          <p class="second-section__content" style="font-size:14px;">despierto, rodeado  de tranquilidad,</p>
-          <p class="second-section__content" style="font-size:14px;"> expansi&oacute;n y energ&iacute;a.</p>
+<section class="second-section">
+  <div class="second-section__content-wrapper">
+    <div class="second-section__content-row">
+      <div class= " second-section__left">
+          <img src="http://avia.com.gt/wp-content/themes/avia/images/index/second-1.png" alt="">  
+      </div>
+      <div class="second-section__middle">
+        <div class="middle-text__wrapper">
+          <div class="middle-text__content">
+            <h2 class="second-section__title">AVIA ES VIDA</h2>
+            <p class="second-section__subtitle" style="font-size:11px;">vida, sinergia, funcionalidad e imaginación</p>
+            <p class="second-section__content" style="font-size:14px;">En el coraz&oacute;n de la zona viva, AVIA </p>
+            <p class="second-section__content" style="font-size:14px;">es un estilo de vida, siempre </p>
+            <p class="second-section__content" style="font-size:14px;">despierto, rodeado  de tranquilidad,</p>
+            <p class="second-section__content" style="font-size:14px;"> expansi&oacute;n y energ&iacute;a.</p>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="col-xs-12 col-sm-3 second-section__right">
-        <img src="http://avia.com.gt/wp-content/themes/avia/images/section-2-right.jpg" alt="">
+      <div class="second-section__right">
+          <img src="http://avia.com.gt/wp-content/themes/avia/images/section-2-right.jpg" alt="">
+      </div>
     </div>
   </div>
 </section>
 
 <!--third-section-->
-<section class="container third-section">
+<section class="third-section">
   <div class="third-section__content-wrapper">  
-    <div class="third-section__content col-sm-8 col-md-6 col-sm-push-2 col-md-push-3">
+    <div class="third-section__content">
       <p class="third-section__title">Conoce las últimas
         <br> noticias de AVIA</p>
       <div role="form" class="wpcf7" id="wpcf7-f5-o1" lang="es-ES" dir="ltr">
@@ -89,8 +91,9 @@
 </section>
 
 <!--fourth section-->
-<section id="contacto" class="container-fluid fourth-section">
-  <div class="fourth-section__content col-xs-12 col-sm-8 col-md-6 col-sm-push-2 col-md-push-3">
+<section id="contacto" class="fourth-section">
+  <div class="row">
+  <div class="fourth-section__content col-xs-12 col-sm-10 col-sm-push-1">
     <h2 class="fourth-section__title">Información</h2>
     <p class="fourth-section__subtitle">Con gusto responderemos tus preguntas</p>
     <div role="form" class="wpcf7" id="wpcf7-f4-o2" lang="es-ES" dir="ltr">
@@ -152,6 +155,7 @@
         <div class="wpcf7-response-output wpcf7-display-none"></div>
       </form>
     </div>
+  </div>
   </div>
 </section>
 </div>
