@@ -4387,13 +4387,10 @@ body {
 MAIN PAGE
 *****************************************************/
 
-
-.main-avia .third-section,
-.main-avia .second-section,
-.main-avia .first-section .first-section__content {
+.main-avia .third-section, .main-avia .second-section, .main-avia .first-section .first-section__content {
   width: 100%;
   margin: 0;
-  padding: 15px;
+  padding: 0 15px;
 }
 
 .main-avia .first-section .section-center {
@@ -4401,11 +4398,11 @@ MAIN PAGE
   margin: 0;
   padding: 0;
   background-color: #ebebeb;
-  padding-bottom: 310px;
+  padding-bottom: 280px;
 }
 
 .main-avia .first-section .section-center .main-image {
-  display:none
+  display: none
 }
 
 .main-avia .first-section .section-center .mobile-image {
@@ -4420,7 +4417,8 @@ MAIN PAGE
 .main-avia .first-section .cover-text {
   width: auto;
   top: auto;
-  bottom: 350px;
+  bottom: 320px;
+  max-width: 80%
 }
 
 .main-avia .first-section .cover-image {
@@ -4429,23 +4427,30 @@ MAIN PAGE
   display: block;
   margin: 50px -15px 50px 15px;
 }
+
 .main-avia .first-section .cover-image .big-image {
   background-color: transparent;
 }
 
-.main-avia .first-section .cover-text .cover-title {}
+.main-avia .first-section .cover-text .first-section__content-title {
+  font-size: 1.7rem;
+  font-family: "PT Sans", sans-serif;
+}
 
-.main-avia .first-section .cover-text .first-section__content-text {}
+.main-avia .first-section .cover-text .first-section__content-text {
+  font-size: 1rem;
+}
 
 .main-avia .second-section__middle {
   background: none;
   margin: 50px 0
 }
+
 .main-avia .second-section__middle .middle-text__wrapper {
   height: 100%;
-    background-image: url(../../../wp-content/themes/avia/images/index/middle.png);
-    display: table;
-    width: 100%;
+  background-image: url(../../../wp-content/themes/avia/images/index/middle.png);
+  display: table;
+  width: 100%;
 }
 
 .main-avia .second-section__middle .middle-text__content {
@@ -4455,11 +4460,11 @@ MAIN PAGE
 
 .main-avia .third-section {
   height: 300px;
-    margin: 0;
+  margin: 50px 0;
 }
 
 .main-avia .third-section .third-section__content-wrapper {
-  background-image:url(http://avia.com.gt/wp-content/themes/avia/images/subscription.jpg);
+  background-image: url(http://avia.com.gt/wp-content/themes/avia/images/subscription.jpg);
   width: 100%;
   height: 100%;
   display: table;
@@ -4469,19 +4474,16 @@ MAIN PAGE
   display: table-cell;
   vertical-align: middle;
 }
+
 /**tablet y mas grande */
 
-
-@media (min-width: 375px) {  
+@media (min-width: 375px) {
   .main-avia .first-section .section-center {
     padding-bottom: 310px;
   }
-  
-
   .main-avia .first-section .cover-text {
-    max-width: 80%
+    bottom: 350px;
   }
-  
   .main-avia .first-section .cover-image {
     width: 100%;
     position: relative;
@@ -4491,22 +4493,35 @@ MAIN PAGE
   .main-avia .first-section .cover-image .big-image {
     background-color: transparent;
   }
-  
   .main-avia .first-section .cover-text .first-section__content-title {
     font-size: 2rem;
     font-family: "PT Sans", sans-serif;
   }
-  
   .main-avia .first-section .cover-text .first-section__content-text {
     font-size: 1.15rem;
   }
-  
-} 
+}
 
 @media (min-width: 425px) {
+  .main-avia .first-section .cover-text {
+    bottom: 380px;
+  }
+  .main-avia .first-section .section-center {
+    padding-bottom: 330px;
+  }
+  .main-avia .first-section .cover-text .first-section__content-title {
+    font-size: 2.2rem;
+    font-family: "PT Sans", sans-serif;
+  }
+  .main-avia .first-section .cover-text .first-section__content-text {
+    font-size: 1.3rem;
+  }
 }
 
 @media (min-width: 768px) {
+  .main-avia .first-section .section-center .mobile-image {
+    display: none;
+  }
   .main-avia .first-section .cover-text .first-section__content-title, .main-avia .first-section .cover-text .first-section__content-text {
     white-space: pre-line;
   }
@@ -4515,23 +4530,24 @@ MAIN PAGE
   }
   .main-avia .first-section .section-center {
     height: auto;
-    padding-bottom: 275px;
+    padding-bottom: 155px;
   }
   .main-avia .first-section .section-center .main-image {
     display: block;
     float: right;
     width: 95%;
     margin-top: -8%;
-    margin-right: -6%;
+    margin-right: -7.5%;
   }
   .main-avia .first-section .cover-text {
     left: 0;
+    bottom: 160px;
   }
   .main-avia .first-section .cover-image {
     top: auto;
     margin: 0;
     padding: 0;
-    bottom: -18%;
+    bottom: -20%;
     position: absolute;
     right: 8%;
     width: 35%;
@@ -4541,9 +4557,16 @@ MAIN PAGE
   .main-avia .first-section .cover-text .first-section__content-title {
     font-family: 'Playfair Display', serif;
   }
+  .main-avia .first-section .cover-text .first-section__content-title {
+    font-size: 1.3rem;
+    font-family: "PT Sans", sans-serif;
+  }
+  .main-avia .first-section .cover-text .first-section__content-text {
+    font-size: 0.8rem;
+  }
   .main-avia .third-section {
     height: 500px;
-      margin: 0;
+    margin: 0;
   }
 }
 
