@@ -11,79 +11,79 @@
   <section class="main-content first-section">
   <div class="row first-section__content">
     <div class="cover-text col-xs-4">
-      <h2 class="first-section__content-title" style="font-size: 20px;">UNA EXPERIENCIA</h2>
-      <h2 class="first-section__content-title" style="font-size: 20px;">COSMOPOLITA</h2>
-      <p class="first-section__content-text"style="width:62%; font-size: 12px;">AVIA es un centro </br>metropolitano que une múltiples dimensiones de convivencia; espacio comercial, oﬁcinas corporativas,
-        hotel, centro de convenciones y apartamentos. </p>
-
+      <h2 class="first-section__content-title">UNA EXPERIENCIA
+        COSMOPOLITA</h2>
+      <p class="first-section__content-text">AVIA es un centro
+        metropolitano que une múltiples
+        dimensiones de convivencia;
+        espacio comercial, oﬁcinas
+        corporativas, hotel, centro de
+        convenciones y apartamentos.
+      </p>
     </div>
-    <div class="col-xs-12">
-      <div class="">
-           <img class=" big-image" alt="" src="../wp-content/themes/avia/images/index/index.png">    
-      </div>
-
-      <img src="../wp-content/themes/avia/images/index/avia.png" style=" position:  absolute; margin-top: -64%; width: 85%; margin-left: 17%; height: 55%;">
+    <div class="col-xs-12 section-center">
+      <div class="mobile-image"></div>
+      <img class="main-image responsive-image"  src="../wp-content/themes/avia/images/index/avia.png">
     </div>
-    <a href="hotel-hyatt.html">
-      <img class="cover-image col-xs-4" alt="" src="../wp-content/themes/avia/images/index/buttons.png" />
+    <a href="hotel-hyatt.html" class="cover-image col-xs-4">
+      <img class="big-image" alt="" src="../wp-content/themes/avia/images/index/buttons.png" />
     </a>
 
   </div>
 </section>
 
 <!--second-section-->
-<section class="container-fluid second-section">
-  <div class="row" style=" margin-right:7%;">
+<section class="container second-section">
+  <div class="row">
     <div class= "col-xs-12 col-sm-5 second-section__left">
-      <div class="row">
-        <img src="http://avia.com.gt/wp-content/themes/avia/images/section-2-left.jpg" alt="">  
-      </div>
+        <img src="http://avia.com.gt/wp-content/themes/avia/images/index/second-1.png" alt="">  
     </div>
-    <div class="col-xs-12 col-sm-4 second-section__middle" style="height: 924px;">
-      <div class="second-section__padder col-xs-12 col-sm-12">
-        <h2 class="second-section__title">AVIA ES VIDA</h2>
-        <p class="second-section__subtitle" style="font-size:11px;">vida, sinergia, funcionalidad e imaginación</p>
-        <p class="second-section__content" style="font-size:14px;">En el coraz&oacute;n de la zona viva, AVIA </p>
-        <p class="second-section__content" style="font-size:14px;">es un estilo de vida, siempre </p>
-        <p class="second-section__content" style="font-size:14px;">despierto, rodeado  de tranquilidad,</p>
-        <p class="second-section__content" style="font-size:14px;"> expansi&oacute;n y energ&iacute;a.</p>
+    <div class="col-xs-12 col-sm-4 second-section__middle">
+      <div class="middle-text__wrapper">
+        <div class="middle-text__content">
+          <h2 class="second-section__title">AVIA ES VIDA</h2>
+          <p class="second-section__subtitle" style="font-size:11px;">vida, sinergia, funcionalidad e imaginación</p>
+          <p class="second-section__content" style="font-size:14px;">En el coraz&oacute;n de la zona viva, AVIA </p>
+          <p class="second-section__content" style="font-size:14px;">es un estilo de vida, siempre </p>
+          <p class="second-section__content" style="font-size:14px;">despierto, rodeado  de tranquilidad,</p>
+          <p class="second-section__content" style="font-size:14px;"> expansi&oacute;n y energ&iacute;a.</p>
+        </div>
       </div>
     </div>
     <div class="col-xs-12 col-sm-3 second-section__right">
-      <div class="row">
         <img src="http://avia.com.gt/wp-content/themes/avia/images/section-2-right.jpg" alt="">
-      </div>
-      
     </div>
   </div>
 </section>
 
 <!--third-section-->
-<section class="container-fluid third-section" style="background-image:url(http://avia.com.gt/wp-content/themes/avia/images/subscription.jpg);height: 500px; margin:0;">
-  <div class="third-section__content col-sm-8 col-md-6 col-sm-push-2 col-md-push-3">
-    <p class="third-section__title">Conoce las últimas
-      <br> noticias de AVIA</p>
-    <div role="form" class="wpcf7" id="wpcf7-f5-o1" lang="es-ES" dir="ltr">
-      <div class="screen-reader-response"></div>
-      <form action="/#wpcf7-f5-o1" method="post" class="wpcf7-form" novalidate="novalidate">
-        <div style="display: none;">
-          <input type="hidden" name="_wpcf7" value="5">
-          <input type="hidden" name="_wpcf7_version" value="5.0.1">
-          <input type="hidden" name="_wpcf7_locale" value="es_ES">
-          <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f5-o1">
-          <input type="hidden" name="_wpcf7_container_post" value="0">
-        </div>
-        <p>
-          <span class="wpcf7-form-control-wrap your-email">
-            <input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
-              aria-required="true" aria-invalid="false">
-          </span>
-          <br>
-          <input type="submit" value="Enviar" class="wpcf7-form-control wpcf7-submit">
-          <span class="ajax-loader"></span>
-        </p>
-        <div class="wpcf7-response-output wpcf7-display-none"></div>
-      </form>
+<section class="container third-section">
+  <div class="third-section__content-wrapper">  
+    <div class="third-section__content col-sm-8 col-md-6 col-sm-push-2 col-md-push-3">
+      <p class="third-section__title">Conoce las últimas
+        <br> noticias de AVIA</p>
+      <div role="form" class="wpcf7" id="wpcf7-f5-o1" lang="es-ES" dir="ltr">
+        <div class="screen-reader-response"></div>
+        <form action="/#wpcf7-f5-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+          <div style="display: none;">
+            <input type="hidden" name="_wpcf7" value="5">
+            <input type="hidden" name="_wpcf7_version" value="5.0.1">
+            <input type="hidden" name="_wpcf7_locale" value="es_ES">
+            <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f5-o1">
+            <input type="hidden" name="_wpcf7_container_post" value="0">
+          </div>
+          <p>
+            <span class="wpcf7-form-control-wrap your-email">
+              <input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
+                aria-required="true" aria-invalid="false">
+            </span>
+            <br>
+            <input type="submit" value="Enviar" class="wpcf7-form-control wpcf7-submit">
+            <span class="ajax-loader"></span>
+          </p>
+          <div class="wpcf7-response-output wpcf7-display-none"></div>
+        </form>
+      </div>
     </div>
   </div>
 </section>
