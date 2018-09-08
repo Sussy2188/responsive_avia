@@ -1,0 +1,12 @@
+[04-Aug-2018 18:40:45 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/wcxgrspd/public_html/wp-content/themes/avia/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/wcxgrspd/public_html/wp-content/themes/avia/index.php on line 1
+[28-Aug-2018 13:42:52 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/wcxgrspd/public_html/wp-content/themes/avia/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/wcxgrspd/public_html/wp-content/themes/avia/index.php on line 1
+[28-Aug-2018 13:43:04 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/wcxgrspd/public_html/wp-content/themes/avia/page-hotel.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/wcxgrspd/public_html/wp-content/themes/avia/page-hotel.php on line 6
