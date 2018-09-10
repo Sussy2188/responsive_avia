@@ -18,7 +18,7 @@
         dimensiones de convivencia;
         espacio comercial, oﬁcinas
         corporativas, hotel, centro de
-        convenciones y apartamentos.
+        convenciones y apartamentos. 
       </p>
     </div>
     <div class="col-xs-12 section-center">
