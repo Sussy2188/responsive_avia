@@ -108,9 +108,6 @@ if ( function_exists( 'add_theme_support' ) ) {
 }
 
 
-
-
-
 /* ----------- // CUSTOM PANELS // ----------- */
 /* ----------- // ====== ====== // ----------- */
 
@@ -149,3 +146,23 @@ function themePostTypes() {
 		)
 	);
 }
+
+function add_search_form($items, $args) {
+ 
+  if ($args->menu == 'avia-menu') { // change your menu slug name
+
+    // Add your html
+    $items .= '<li class="menu-item nav-search">'
+                  . '<form role="search" method="get" class="search-form" action="'.home_url( '/' ).'">'
+                  . '<label class="nav-input-wrapper">'
+                  . '<span class="screen-reader-text">' . _x( 'Buscar:', 'label' ) . '</span>'
+                  . '<input type="search" class="search-field" placeholder="' . esc_attr_x( 'Buscar …', 'placeholder' ) . '" value="' . get_search_query() . '" name="s" title="' . esc_attr_x( 'Search for:', 'label' ) . '" />'
+                  . '</label>'
+                  . '<input type="submit" class="search-submit" />'
+                  . '<span class="lens-icon"></span>'
+                  . '</form>'
+                  . '</li>';
+  }
+  return $items;
+}
+add_filter( 'wp_nav_menu_items', 'add_search_form', 10, 2 );
