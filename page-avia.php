@@ -14,7 +14,7 @@
       <h2 class="first-section__content-title">UNA EXPERIENCIA
         COSMOPOLITA</h2>
       <p class="first-section__content-text">AVIA es un centro
-        metropolitano que une múltiples
+        metropolitano que une m&uacute;ltiples
         dimensiones de convivencia;
         espacio comercial, oﬁcinas
         corporativas, hotel, centro de

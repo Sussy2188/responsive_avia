@@ -2777,11 +2777,12 @@ body {
     CENTRO-CONVENCIONES.CSS
   ***************************************/
 
-.centro-convenciones .first-section .cover-text {
-  left: 0;
-  border: 0;
-  top: auto;
-}
+  .centro-convenciones{
+    margin: 0 15px;
+  }
+  
+
+
 
 .centro-convenciones .direction {
   background: #d8d8d8;
@@ -2790,15 +2791,22 @@ body {
   line-height: 21px;
   color: #4e5258;
   padding: 60px 25px;
-  padding-top: 200px;
+  padding-top: 261px;
+ 
 }
 
 .centro-convenciones .first-section__content-subtitle {
-  font-family: "PT Sans", sans-serif;
-  font-size: 18px;
+
+  font-size: 16px;
   color: #3a3c43;
   margin-bottom: 1rem;
+  font-family: "PT Sans", sans-serif;
+
+  
 }
+/**tablet y mas grande */
+
+
 
 @media (min-width: 400px) {
   .centro-convenciones .first-section .cover-text {
@@ -2815,12 +2823,39 @@ body {
     padding-top: 60px;
     margin-top: -3px;
   }
+  
   .centro-convenciones .first-section .cover-text {
     top: 25%;
     bottom: auto;
     transform: translateY(20%);
   }
+  .centro-convenciones .first-section__content-subtitle .centro-convenciones .first-section .cover-text .centro-convenciones .first-section__content-title, .centro-convenciones .direction .centro-convenciones .first-section__content-text {
+    white-space: pre-line;
+    
+  }
 }
+/*desktop y mas grande*/
+@media (min-width: 1440px) {
+  .centro-convenciones .first-section .cover-text {
+    top: 25%;
+    bottom: auto;
+    transform: translateY(20%);
+    margin-left: -2%;
+}
+.centro-convenciones .first-section__content-subtitle {
+
+  font-size: 16px;
+  margin-bottom: 1rem;
+}
+.centro-convenciones .first-section__content-title{
+  font-size: 24px;
+}
+
+
+}
+
+
+
 
 /***************************************
     CSS FILE NAME
@@ -4400,7 +4435,7 @@ MAIN PAGE
   height: auto;
   margin: 0;
   padding: 0;
-  background-color: #ebebeb;
+  background-color: #d8d8d8;
   padding-bottom: 280px;
 }
 
@@ -4587,7 +4622,7 @@ MAIN PAGE
   }
   .main-avia .first-section .cover-text .first-section__content-title {
     font-size: 1.3rem;
-    font-family: "PT Sans", sans-serif;
+  
   }
   .main-avia .first-section .cover-text .first-section__content-text {
     font-size: 0.8rem;
@@ -4633,10 +4668,22 @@ MAIN PAGE
 /*desktop y mas grande*/
 
 @media (min-width: 1024px) {
+  .main-avia .third-section, .main-avia .second-section {
+    margin: 75px 0;
+    padding: 0;
+    margin-top: 100px;
+  }
   .main-avia .third-section {
     height: 500px;
     margin: 0;
   }
+  .main-avia .second-section__title {
+    letter-spacing: .3rem;
+    font-family: 'Playfair Display', serif;
+}
+  .main-avia .second-section__content {
+    letter-spacing: .2rem;
+}
   .main-avia .first-section .section-center .main-image {
     margin-right: -5.3%;
   }
@@ -4646,8 +4693,12 @@ MAIN PAGE
   .main-avia .first-section .cover-text .first-section__content-text {
     font-size: 1.1rem;
   }
+  .main-avia .second-section .second-section__subtitle {
+    padding: 0;
+    letter-spacing: .3em;
+}
   .main-avia .first-section .section-center {
-    padding-bottom: 200px;
+    padding-bottom: 280px;
   }
   .main-avia .first-section .cover-text {
     bottom: 205px;
@@ -4656,9 +4707,14 @@ MAIN PAGE
 } 
 
 @media (min-width: 1440px) {
+  .main-avia .second-section .second-section__subtitle {
+    padding: 0;
+    letter-spacing: .3rem;
+}
   .main-avia .third-section, .main-avia .second-section {
     margin: 75px 0;
     padding: 0;
+    margin-top: 100px;
   }
   .main-avia .first-section .section-center .main-image {
     margin-right: -3.8%;
@@ -4670,10 +4726,82 @@ MAIN PAGE
     font-size: 1.5rem;
   }
   .main-avia .first-section .section-center {
-    padding-bottom: 280px;
+    padding-bottom: 350px;
   }
   .main-avia .first-section .cover-text {
     bottom: 285px;
   }
+  .main-avia .second-section__content {
+    letter-spacing: .2rem;
+}
+  .main-avia .second-section__title {
+  letter-spacing: .3rem;
+}
 
+}
+
+/**************************************/
+/********* Cambios realizados ***********/
+/********** sabado 8 de septiembre ***********/
+/*******************************************/
+
+/**** navigation search ***/
+
+.scrollmenu li.nav-search {
+  width: 30px;
+}
+.search-form {
+  position: absolute;
+  right: 0;
+  width: 30px;
+  overflow: hidden;
+  -webkit-transition: width 0.5s; /* Safari */
+  transition: width 0.5s;
+}
+.search-form.open {
+  width: 100%;
+  -webkit-transition: width 0.5s; /* Safari */
+  transition: width 0.5s;
+}
+
+.screen-reader-text {
+  position: absolute;
+  overflow: hidden;
+  width: 0;
+  height: 0;
+}
+
+.search-field {
+  border: 1px solid;
+  padding: 10px;
+  width: 100%;
+}
+
+.nav-input-wrapper {
+  width: calc(100% - 30px);
+  float: left;
+  overflow: hidden;
+  margin-right: 5px;
+}
+
+.search-submit {
+  display: none;
+}
+
+.lens-icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  background: transparent url('https://cdn3.iconfinder.com/data/icons/inficons-set-2/512/648915-star-ratings-512.png') no-repeat center;
+  background-size: 24px;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+  float: left;
+  top: 3px;
+  position: relative;
+}
+.avia-header .scrollmenu {
+  position: relative;
 }
