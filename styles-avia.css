@@ -2842,15 +2842,27 @@ body {
     transform: translateY(20%);
     margin-left: -2%;
 }
+.centro-convenciones .first-section__content-title{
+  font-size: 24px;
+}
+.centro-convenciones .direction .first-section__content-title{
+  font-size: 20px;
+  margin-bottom: 1rem;
+  /* font-weight: 700; */
+  text-transform: uppercase;
+  line-height: 140%;
+  letter-spacing: 0.1em;
+}
 .centro-convenciones .first-section__content-subtitle {
 
   font-size: 16px;
   margin-bottom: 1rem;
+  margin-bottom: 15%;
+  letter-spacing: 0.1rem;
 }
-.centro-convenciones .first-section__content-title{
-  font-size: 24px;
+.centro-convenciones .first-section__content-text{
+  font-size: 17px;
 }
-
 
 }
 
