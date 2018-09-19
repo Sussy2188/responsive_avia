@@ -2776,11 +2776,12 @@ body {
     CENTRO-CONVENCIONES.CSS
   ***************************************/
 
-.centro-convenciones .first-section .cover-text {
-  left: 0;
-  border: 0;
-  top: auto;
-}
+  .centro-convenciones{
+    margin: 0 15px;
+  }
+  
+
+
 
 .centro-convenciones .direction {
   background: #d8d8d8;
@@ -2789,15 +2790,22 @@ body {
   line-height: 21px;
   color: #4e5258;
   padding: 60px 25px;
-  padding-top: 200px;
+  padding-top: 261px;
+ 
 }
 
 .centro-convenciones .first-section__content-subtitle {
-  font-family: "PT Sans", sans-serif;
-  font-size: 18px;
+
+  font-size: 16px;
   color: #3a3c43;
   margin-bottom: 1rem;
+  font-family: "PT Sans", sans-serif;
+
+  
 }
+/**tablet y mas grande */
+
+
 
 @media (min-width: 400px) {
   .centro-convenciones .first-section .cover-text {
@@ -2814,12 +2822,51 @@ body {
     padding-top: 60px;
     margin-top: -3px;
   }
+  
   .centro-convenciones .first-section .cover-text {
     top: 25%;
     bottom: auto;
     transform: translateY(20%);
   }
+  .centro-convenciones .first-section__content-subtitle .centro-convenciones .first-section .cover-text .centro-convenciones .first-section__content-title, .centro-convenciones .direction .centro-convenciones .first-section__content-text {
+    white-space: pre-line;
+    
+  }
 }
+/*desktop y mas grande*/
+@media (min-width: 1440px) {
+  .centro-convenciones .first-section .cover-text {
+    top: 25%;
+    bottom: auto;
+    transform: translateY(20%);
+    margin-left: -2%;
+}
+.centro-convenciones .first-section__content-title{
+  font-size: 24px;
+}
+.centro-convenciones .direction .first-section__content-title{
+  font-size: 20px;
+  margin-bottom: 1rem;
+  /* font-weight: 700; */
+  text-transform: uppercase;
+  line-height: 140%;
+  letter-spacing: 0.1em;
+}
+.centro-convenciones .first-section__content-subtitle {
+
+  font-size: 16px;
+  margin-bottom: 1rem;
+  margin-bottom: 15%;
+  letter-spacing: 0.1rem;
+}
+.centro-convenciones .first-section__content-text{
+  font-size: 17px;
+}
+
+}
+
+
+
 
 /***************************************
     CSS FILE NAME
