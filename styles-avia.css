@@ -2780,6 +2780,14 @@ body {
     margin: 0 15px;
   }
   
+  .centro-convenciones .hero-image {
+    background-image: url("../../../wp-content/themes/avia/images/pronto-avia.png");
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: -10px;
+  }
 
 
 
@@ -2817,6 +2825,12 @@ body {
 }
 
 @media (min-width: 768px) {
+  .centro-convenciones .hero-image {
+    height: 222px;
+    background-size: contain;
+    background-position-x: unset;
+  }
+
   .centro-convenciones .direction {
     padding-left: 35%;
     padding-top: 60px;

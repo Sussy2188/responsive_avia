@@ -9,7 +9,7 @@
 <!--contenido-->
 <section class="main-content first-section">
     <div class="first-section__wrapper">
-      <img class="big-image" src="../wp-content/themes/avia/images/pronto-avia.png" alt="">
+      <div class="hero-image"></div>
       <div class="cover-text col-xs-11 col-sm-8 col-md-4 col-lg-4">
         <h2 class="first-section__content-title">PRONTO EN AVIA</h2>
         <h2 class="first-section__content-subtitle">EPICA EVENTOS Y 
