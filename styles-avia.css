@@ -2358,7 +2358,7 @@ footer {
 }
 
 .reset-typography .first-section .cover-text h1, .reset-typography .first-section .cover-text h2, .reset-typography .first-section .cover-text h3, .reset-typography .first-section .cover-text h4, .reset-typography .first-section .cover-text h5, .reset-typography .first-section .cover-text h6 {
-  font-family: 'Playfair Display', serif;
+
 }
 
 .reset-typography .container {
@@ -2782,34 +2782,52 @@ body {
   
   .centro-convenciones .hero-image {
     background-image: url("../../../wp-content/themes/avia/images/pronto-avia.png");
-    height: 500px;
+    height: 300px;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-x: -10px;
+    background-position-x: -60px;
   }
-
+  .centro-convenciones .first-section .cover-text {
+    top: 270px;
+    bottom: initial;
+    left: 0px;
+    border: 0;
+    width: 82%;
+}
 
 
 .centro-convenciones .direction {
-  background: #d8d8d8;
-  height: auto;
-  letter-spacing: 1px;
+  background: #ebebeb;
+  font-size: 12px;
   line-height: 21px;
   color: #4e5258;
   padding: 60px 25px;
   padding-top: 261px;
+  text-align: center;
+  white-space: pre-line;
  
 }
+.centro-convenciones .second-section__content-title{
+  font-size: 18px;
+  color: #aeb1b3;
+  padding-bottom: 10px;
+  letter-spacing: .2rem;
+  padding-top: 20px;
+}
 
-.centro-convenciones .first-section__content-subtitle {
+
+.centro-convenciones .second-section__content-subtitle {
 
   font-size: 16px;
-  color: #3a3c43;
+  color:#3b3d43;
   margin-bottom: 1rem;
-  font-family: "PT Sans", sans-serif;
+  letter-spacing: .1rem;
 
-  
+}
+
+.first-section__content-text{
+  white-space: pre-line;
 }
 /**tablet y mas grande */
 
@@ -2817,10 +2835,9 @@ body {
 
 @media (min-width: 400px) {
   .centro-convenciones .first-section .cover-text {
-    top: 20%;
+    top: 31%;
   }
   .centro-convenciones .direction {
-    padding-top: 150px;
   }
 }
 
@@ -2835,6 +2852,7 @@ body {
     padding-left: 35%;
     padding-top: 60px;
     margin-top: -3px;
+    text-align: left;
   }
   
   .centro-convenciones .first-section .cover-text {
@@ -2842,7 +2860,7 @@ body {
     bottom: auto;
     transform: translateY(20%);
   }
-  .centro-convenciones .first-section__content-subtitle .centro-convenciones .first-section .cover-text .centro-convenciones .first-section__content-title, .centro-convenciones .direction .centro-convenciones .first-section__content-text {
+  .centro-convenciones .second-section__content-subtitle .centro-convenciones .-section .cover-text .centro-convenciones .second-section__content-title, .centro-convenciones .direction .centro-convenciones .first-section__content-text {
     white-space: pre-line;
     
   }
