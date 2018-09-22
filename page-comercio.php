@@ -22,7 +22,7 @@
         </section>
         <section class="gallery-section">
             <div class="row gallery ">
-                <h2 class="col-xs-12 first-section__content-title text-center">Directorio</h2>
+                <h2 class="col-xs-12 first-section__content-title">Directorio</h2>
                 <div class="col-xs-12">
                     <div class="swiper-container">
                         <div class="swiper-wrapper">

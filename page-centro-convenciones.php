@@ -23,9 +23,8 @@
       </div>
       <div class="col-xs-12 col-sm-12 direction ">
         <h2 class="col-xs-12 col-sm-12 second__content-title" style="font-size: 17px; padding-bottom: 19px;"  >DETALLES</h2>
-        <p class="col-xs-12 col-sm-12 first-section__content-parrafo">Apartamentos de uno a tres dormitorios,
-          entre 150 y 250m2 5 s&oacute;tanos de 
-          estacionamiento Phenthouse</p>
+        <p class="col-xs-12 col-sm-12 first-section__content-parrafo">Un espacio moderno y vers&aacute;til que puede recibir a una audiencia macro de 
+        hasta 600 personas, o a grupos de hasta 150.</P>
         <h2 class="col-xs-12 col-sm-12 second__content-title " style="font-size: 17px; padding-bottom: 19px;  padding-top: 50px;">CONTACTO</h2>
         <p class="col-xs-12 col-sm-12 first-section__content-parrafo">T. 2217-6017
             C. ccavia@ghlhoteles.com</p>

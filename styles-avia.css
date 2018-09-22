@@ -2844,7 +2844,7 @@ body {
 @media (min-width: 768px) {
   .centro-convenciones .hero-image {
     height: 222px;
-    background-size: contain;
+    background-size: cover;
     background-position-x: unset;
   }
   .centro-convenciones .second-section__content-title {
@@ -2881,12 +2881,12 @@ body {
 /*desktop y mas grande*/
 @media (min-width: 1024px){
   .centro-convenciones .hero-image {
-    height: 312px;
-    background-size: contain;
+    height: 440px;
+    background-size: cover;
     background-position-x: unset;
 }
 .centro-convenciones .first-section .cover-text {
-  top: 25%;
+  top: 38%;
   bottom: auto;
   transform: translateY(20%);
   min-width: 35%;
@@ -2912,26 +2912,18 @@ body {
   text-align: left;
 }
 .centro-convenciones .direction {
-  font-size: 12px;
+  font-size: 13px;
   line-height: 21px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 @media (min-width: 1440px) {
+  .centro-convenciones .hero-image {
+    height: 450px;
+    background-size: cover;
+    background-position-x: unset;
+}
   .centro-convenciones .first-section .cover-text {
-    top: 25%;
+    top: 35%;
     bottom: auto;
     transform: translateY(20%);
     margin-left: -2%;
@@ -2957,11 +2949,12 @@ body {
 .centro-convenciones .first-section__content-text{
   font-size: 17px;
 }
-
+.centro-convenciones .direction {
+    font-size: 16px;
+    line-height: 21px;
 }
 
-
-
+}
 
 /***************************************
     CSS FILE NAME
@@ -2969,7 +2962,9 @@ body {
   ***************************************/
 
 /* estilo de CONTENEDOR */
-
+.comercio{
+  margin: 0 15px;
+}
 .comercio .first-section, .comercio .second-section, .comercio .picture-right-section, .comercio .fourth-section {
   height: auto;
   margin-top: 15px;
@@ -2987,17 +2982,19 @@ body {
   top: 0;
   bottom: auto;
   position: absolute;
-  right: 15px;
+  right: -14px;
   width: 100%;
+  height: 250px;
   padding: 0;
 }
 
 .comercio .first-section .cover-text {
-  bottom: 0;
-  top: auto;
+  top: 88%;
   left: 15px;
   z-index: 10;
-  width: 66%;
+  width: 61%;
+  padding-top: 45px;
+  padding-bottom: 40px;
 }
 
 .comercio .first-section .big-image {
@@ -3020,6 +3017,7 @@ body {
   height: auto;
   padding: 30px 10px;
   margin: 0;
+  padding-top: 90%;
 }
 
 .comercio .section-row {
