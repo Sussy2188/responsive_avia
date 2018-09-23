@@ -8,7 +8,7 @@
   <!--contenido-->
   <div class="directorio-botones reset-typography">
   <section class="main-content container-fluid first-section">
-    <img class=" big-image" alt="" src="../wp-content/themes/avia/images/directorio-botones.png">
+  <div class="hero-image"></div>
     <div class="container">
       <div class="row">
         <div class="col-xs-12 col-md-4 columna ">
@@ -17,9 +17,7 @@
           <p class=" first-section__content-parrafo">TGI FRIDAYS</p>
           <p class=" first-section__content-parrafo">PF CHANGS</p>
           <p class=" first-section__content-parrafo">JADES</p>
-          <H2 class=" first-section__content-title">
-            </br>
-            </br> FITNESS</h2>
+          <H2 class=" first-section__content-title">FITNESS</h2>
           <p class=" first-section__content-parrafo">BRAU</p>
           <p class=" first-section__content-parrafo">VOLTIO</p>
 

@@ -12,7 +12,11 @@
             <div class="row first-section__content">
                 <div class="cover-text col-xs-8">
                     <h2 class="first-section__content-title">Comercio</h2>
-                    <p class="first-section__content-text">Una selecta oferta comercial en espacios totalmente abiertos con jardines interiores y plazas rodeadas de obras de arte y elementos arquitect&oacute;nicos contempor&aacute;neos.</p>
+                    <p class="first-section__content-text">Una selecta oferta comercial en 
+                        espacios totalmente abiertos con 
+                        jardines interiores y plazas rodeadas 
+                        de obras de arte y elementos 
+                        arquitect&oacute;nicos contempor&aacute;neos.</p>
                 </div>
                 <div class="col-xs-12 col-md-8">
                     <img class=" big-image" alt="" src="../wp-content/themes/avia/images/comercio/img-2.png">
@@ -71,8 +75,10 @@
             <div class="section-row">
                 <div class="picture-right-section__column-left">
                     <div class="picture-right-section__left row">
-                        <div class="col-xs-8 col-xs-push-2 col-md-6 col-md-push-3">
-                            <p class="first-section__content-text">Un legado de estilo y buen gusto en una atm&oacute;sfera cosmopolitana</p>
+                        <div class="col-xs-8 col-xs-push-2 col-md-7 col-md-push-3">
+                            <p class="first-section__content-text">Un legado de estilo y buen 
+                                gusto en una atm&oacute;sfera
+                                 cosmopolitana</p>
                         </div>
     
                     </div>
