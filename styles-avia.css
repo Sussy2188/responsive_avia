@@ -2881,8 +2881,13 @@ body {
 /*desktop y mas grande*/
 @media (min-width: 1024px){
   .centro-convenciones .hero-image {
+<<<<<<< Updated upstream
     height: 440px;
     background-size: cover;
+=======
+    height: 453px;
+    background-size: contain;
+>>>>>>> Stashed changes
     background-position-x: unset;
 }
 .centro-convenciones .first-section .cover-text {
