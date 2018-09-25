@@ -3565,19 +3565,68 @@ body {
   }
   .directorio-botones .columna h2 {
     padding-top: 5%;
-    color: #aeb1b3;
     text-transform: none;
   }
+  .directorio-botones .first-section__content-title,  .directorio-botones .first-section__content-parrafo{
+    white-space: pre-line;
+  }
+
   @media (min-width: 768px) {
     .directorio-botones .columna {
       text-align: left;
     }
+    .directorio-botones .hero-image {
+      height: 280px;
   }
+  .directorio-botones .first-section__content-title,  .directorio-botones .first-section__content-parrafo{
+    white-space: pre-line;
+  }
+  }
+  @media (min-width: 916px) {
+    .directorio-botones .hero-image {
+      height: 320px;
+  }
+  }
+  @media (min-width: 1024px) {
+    .directorio-botones .hero-image {
+      height: 352px;
+  }
+  }
+
+  @media (min-width: 1315px) {
+    .directorio-botones .hero-image {
+      height: 440px;
+  }
+  }
+
+  @media (min-width: 1280px) {
+    .directorio-botones .hero-image {
+      height: 478px;
+  }
+  }
+
+  @media (min-width: 1440px) {
+    .directorio-botones .hero-image {
+      height: 650px;
+  }
+  }
+
   /***************************************
   CSS FILE NAME
   DIRECTORIO-JADES.CSS
 ***************************************/
   /* estilo de CONTENEDOR */
+  .directorio-jades {
+    margin: 0 15px;
+  }
+  .directorio-jades .hero-image {
+    background-image: url("../../../wp-content/themes/avia/images/coffee.png");
+    height: 383px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 3px;
+  }
   .directorio-jades .left-image {
     background-repeat: no-repeat;
     background-position: right;
@@ -3614,10 +3663,22 @@ body {
     color: #4a4f55;
     font-size: 18px;
   }
+  .directorio-jades .second-section__subtitle {
+    padding-bottom: 0px;
+}
   .directorio-jades .first-section__content-text {
-    padding-bottom: 30px;
+    padding-bottom: 75px;
     color: #4a4f55;
   }
+  .directorio-jades.first-section__content-title,  .directorio-jades .first-section__content-text, .directorio-jades  .second-section__subtitle{
+    white-space: pre-line;
+  }
+  @media (min-width: 375px) {
+    .directorio-jades .hero-image {
+      height: 459px;
+  }
+  }
+  
   @media (min-width: 768px) {
     .directorio-jades .first-section {
       margin-top: 10%;
@@ -3642,6 +3703,11 @@ body {
       padding-top: inherit;
       padding-left: 35px;
     }
+  }
+  @media (min-width: 1024px) {
+    .directorio-jades .hero-image {
+      height: 459px;
+  }
   }
   /***************************************
     CSS FILE NAME
